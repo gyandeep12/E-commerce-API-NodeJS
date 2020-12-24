@@ -1,0 +1,21 @@
+{
+  "name": "e-commerce api",
+  "version": "1.0.0",
+  "description": "This is an e-commerce API built using Node JS,Express and Mongo DB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node sever.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "mongoose": "^5.7.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
